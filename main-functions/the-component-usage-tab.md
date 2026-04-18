@@ -192,10 +192,10 @@ Another typical use case is limiting the component matches to workspaces with a 
 2.  In this new tab, shorten the list so it contains only the "relevant" workspaces: <br>
 
     <figure><img src="../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
-3.  In the `config` tab, set the `limit_workspaces_for_comp_usage` to the name of the tab with the relevant workspace list (in our example, `wsp_to_limit_comp_usage` ): <br>
+3.  In the `config` tab, set `limit_workspaces_for_comp_usage` to the name of the tab with the relevant workspace list (in our example, `wsp_to_limit_comp_usage` ): <br>
 
     <figure><img src="../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
-4. If you have previously executed Component Usage Update runs, you also need to set the `run_with_hard_refresh`  to `TRUE` for the first run with your new limitation settings.<br>
+4. If you have previously executed Component Usage Update runs, you also need to set `run_with_hard_refresh`  to `TRUE` for the first run with your new limitation settings.<br>
 5.  The `matching_projects_count` column in the `all_comp_usage` tab will now count matches only if the component is found in the "relevant" workspaces:<br>
 
     <figure><img src="../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
