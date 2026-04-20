@@ -114,11 +114,6 @@ The cleanup and workspace-limiting work from Parts 1 and 2 also surfaces the usa
 - Low usage → can they be left out of your CJA tracking plan?
 - High usage → are they part of the CJA tracking plan? If not, consider adding them.
 
-### Step 10: Remove eVars and Success Events that no longer receive data *(optional / backup slide)*
-TODO ENGLISCH: Cleaning up does not only mean deleting workspaces and segments, it also means cleaning up your tracking implementation!
-
-In the `rs_editor` tab, you can not only bulk-edit eVars, props, and Success Events, but also see which ones have received any recent data. Identify the "dead" ones and exclude them from your CJA setup — or investigate if they *should* be receiving data (could be a bug).
-
 ## Part 4: Users
 
 ### Step 11: POCs with Power User Allies — instead of a Big Bang Rollout
