@@ -2,7 +2,7 @@
 
 This is a summary of a presentation held at the Feld M "Road To Summit" Event on April 20, 2026. It shows how the Adobe Analytics Component Manager for Google Sheets makes your migration from Adobe Analytics (AA) to Customer Journey Analytics (CJA) - or any other tool - likelier to succeed.
 
-**[Download the slide deck here](https://drive.google.com/file/d/12DWn2e7u8bOZcLLDeEG-gliIM5DKBmPs/view?usp=sharing).** 
+{% embed url="https://docs.google.com/presentation/d/e/2PACX-1vQe-1GeQYAYTIW7fMdbOGxWpIwA55m0_RGlBeU5JmGdMdY6JDi2lNMh_HXIe8cboQ/pub?start=true&loop=true&delayms=5000" %}
 
 ## Intro: A failed migration
 **"Where is my dashboard? Why are the numbers so different? What should I believe now? Where is that segment I used in AA?"**
