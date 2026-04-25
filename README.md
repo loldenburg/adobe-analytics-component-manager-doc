@@ -30,6 +30,7 @@ In addition to the documentation provided here, check out some of the articles a
 
 * 7 Steps to clean up your Adobe Analytics in a Data-Driven Manner: [https://lukas-oldenburg.medium.com/7-steps-to-clean-up-your-adobe-analytics-in-a-data-driven-manner-98bda7808f7b](https://lukas-oldenburg.medium.com/7-steps-to-clean-up-your-adobe-analytics-in-a-data-driven-manner-98bda7808f7b)
 * Find and delete 100's of unused Adobe Analytics Segments with a few clicks (Video): [https://lukas-oldenburg.medium.com/find-and-delete-100s-of-unused-adobe-analytics-segments-with-a-few-clicks-video-18762313826a](https://lukas-oldenburg.medium.com/find-and-delete-100s-of-unused-adobe-analytics-segments-with-a-few-clicks-video-18762313826a)
+* [Prepare for your Migration from Adobe Analytics to CJA (Customer Journey Analytics) with the Component Manager](main-functions/prepare-to-migrate-to-cja-with-the-component-manager.md)
 
 Or check out the the [**slide deck**](https://drive.google.com/file/d/1Te0B30HWTtczVjsIhvYkO0QVDtdVHQGN/view?usp=sharing) and the [**official Product Page at DataCroft**](https://datacroft.de/en/component-manager/).
 
