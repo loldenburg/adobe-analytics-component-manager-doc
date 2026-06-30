@@ -24,6 +24,7 @@
   * [Updating the Layout](main-functions/updating-the-layout.md)
   * [Configuring Virtual Report Suites](main-functions/configuring-virtual-report-suites.md)
   * [Slack Channel Integration](main-functions/slack-channel-integration.md)
+  * [The config Tab](main-functions/the-config-tab.md)
 * [Cleaning up Workspaces and Deleting Unused Components in 7 Steps](main-functions/cleaning-up-workspaces-and-deleting-unused-components.md)
 * [Prepare Migration from AA to CJA](main-functions/prepare-to-migrate-to-cja-with-the-component-manager.md)
 * [What is the Component Manager?](what-is-the-component-manager.md)

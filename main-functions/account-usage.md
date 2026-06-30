@@ -20,6 +20,18 @@ Updating the tab for the first time can take a while, usually between 5 and 45 m
 
 To see email addresses or login names instead of hashes, uncheck the "**no personal data**" **checkbox in the "config" tab.**
 
+### Copy the stats to your own Google Cloud Storage bucket
+
+If you want the raw account usage data outside of Google Sheets — for example to feed it into your own data warehouse or BI pipeline — the Component Manager can automatically write a CSV copy of the account usage stats to a Google Cloud Storage (GCS) bucket in **your own** Google Cloud project.
+
+To enable this, set the **`gcs_bucket`** key in the **"config" tab** to the name of your target bucket (e.g. `my-company-component-manager`). From then on, every account usage update writes a copy of the stats CSV to that bucket.
+
+The bucket must grant **Storage Object Admin** (`roles/storage.objectAdmin`) permission to the Component Manager service account **`gcf-scripts-runner-v2@dim28-comp-mgr.iam.gserviceaccount.com`** so it can create and overwrite the file.
+
+{% hint style="info" %}
+See the [config tab reference](the-config-tab.md) for all available config keys.
+{% endhint %}
+
 ### **Frequent Questions**
 
 #### Are views from technical users (e.g. via API) counted?
