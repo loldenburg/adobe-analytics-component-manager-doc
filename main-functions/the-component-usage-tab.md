@@ -94,6 +94,20 @@ In such cases, you see `not supported by this component`.
 
 Columns like "description", "definition", or the "matching names" can get very long and are thus truncated after a certain number of characters. Otherwise they could break Google Sheet's max cell limits or make writing to GoogleSheets via the API impossible. The calculations, e.g. of the number of matches, are made before truncation. Truncation is only applied shortly before the data is written to the Google Sheet.&#x20;
 
+#### **Classifications: matches can be undercounted in accounts set up after mid-August 2026**
+
+Adobe stores **old ("legacy") Classification IDs inside Workspace project definitions** and only rewrites them to the current ID format once that project is **opened and saved again** in Workspace. A Classification that has not been touched for years is therefore still referenced by an ID like `variables/evar1.1` (parent variable + the position of the Classification), not by the ID Adobe uses today.
+
+To find those matches anyway, the Component Manager used to build a **lookup map from legacy to current Classification IDs**. The only Adobe API that could deliver this mapping was the Analytics **1.4 API**, which Adobe **shut down on August 12, 2026**. Adobe's 2.0 Classification API identifies Classification columns by UUID and offers **no way to convert legacy Classification IDs to current ones**.
+
+{% hint style="warning" %}
+**What this means in practice:** Accounts whose lookup map was built **before** mid-August 2026 are unaffected — legacy IDs never change, so the existing map stays valid.
+
+For **accounts set up after** that date, no such map can be created anymore. There, `matching_projects_count` (and `matches_total`) can be **too low for Classification dimensions**, because matches in project definitions that still carry legacy IDs are not detected.
+
+This only affects **Classifications**. eVars, props, events, Segments, Calculated Metrics and Date Ranges are matched by their regular IDs and are not impacted. The gap also keeps shrinking over time: every time a project is opened and saved in Workspace, Adobe replaces the legacy IDs in its definition with the current ones.
+{% endhint %}
+
 ## How are project-specific Components and dimensional value filters treated?
 
 The following video summarizes this chapter. For details, read on below.
