@@ -6,6 +6,18 @@ description: >-
 
 # Report Suite Editor (eVars, props, Success Events)
 
+{% hint style="danger" %}
+**Temporarily unavailable since mid-August 2026**
+
+Viewing and editing Report Suite variables is only possible via Adobe's **Analytics 1.4 API**, which Adobe **shut down on August 12, 2026**. Adobe's 2.0 API currently offers **no replacement** for reading or writing the eVar, prop and Success Event settings of a Report Suite.
+
+All functions of the **rs\_editor** tab — "Refresh Vars", "Refresh Vars w. Stats" and "Send Var updates" — therefore stop with this status message:
+
+> Due to Adobe discontinuing the API 1.4, Edit and Update Report Suite Vars functions are not available anymore. Adobe has promised to offer these functions again in the future.
+
+Adobe has promised to offer these functions again in the future. As soon as a 2.0 equivalent is available, the Component Manager will switch to it and the tab will work as described below. The rest of the Component Manager is **not** affected.
+{% endhint %}
+
 {% hint style="info" %}
 **Note:** To edit or delete segments, calculated metrics, date ranges, curated components and curated names for Virtual Report Suites, see the [**Component Editor**](the-component-editor-tab.md)**.**
 {% endhint %}
