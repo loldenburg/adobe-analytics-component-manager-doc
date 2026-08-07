@@ -15,7 +15,7 @@ All functions of the **rs\_editor** tab — "Refresh Vars", "Refresh Vars w. Sta
 
 > Due to Adobe discontinuing the API 1.4, Edit and Update Report Suite Vars functions are not available anymore. Adobe has promised to offer these functions again in the future.
 
-Adobe has promised to offer these functions again in the future. As soon as a 2.0 equivalent is available, the Component Manager will switch to it and the tab will work as described below. The rest of the Component Manager is **not** affected.
+As soon as a 2.0 equivalent is available, we will strive to offer the same functions again. The rest of the Component Manager (deleting/editing Calc Metrics, Segments, Date Ranges, Workspaces etc.) is **not** affected.
 {% endhint %}
 
 {% hint style="info" %}
