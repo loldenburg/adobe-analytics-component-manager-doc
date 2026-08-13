@@ -7,9 +7,9 @@ description: >-
 # Report Suite Editor (eVars, props, Success Events)
 
 {% hint style="danger" %}
-**Temporarily unavailable since mid-August 2026**
+**Temporarily unavailable starting late September 2026**
 
-Viewing and editing Report Suite variables is only possible via Adobe's **Analytics 1.4 API**, which Adobe **shut down on August 12, 2026**. Adobe's 2.0 API currently offers **no replacement** for reading or writing the eVar, prop and Success Event settings of a Report Suite.
+Viewing and editing Report Suite variables is only possible via Adobe's **Analytics 1.4 API**, which Adobe will **shut down in late August, 2026**. Adobe's 2.0 API currently offers **no replacement** for reading or writing the eVar, prop and Success Event settings of a Report Suite.
 
 All functions of the **rs\_editor** tab — "Refresh Vars", "Refresh Vars w. Stats" and "Send Var updates" — therefore stop with this status message:
 
